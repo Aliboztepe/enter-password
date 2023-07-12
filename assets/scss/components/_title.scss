@@ -1,0 +1,8 @@
+.title {
+    @include font($first-font, $fs-xl, $font-bold, $catalina-blue);
+    
+    &.-password {
+        font-size: $fs-sm;
+        font-weight: $font-semibold;
+    }
+}

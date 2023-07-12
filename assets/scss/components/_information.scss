@@ -1,0 +1,23 @@
+.information {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+
+    &-list {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4px;
+    }
+
+    &-item {
+        @include font($first-font, $fs-sm, $font-medium, $catalina-blue);
+
+        &.-name {
+            font-size: 18px;
+            font-weight: $font-bold;
+        }
+    }
+}

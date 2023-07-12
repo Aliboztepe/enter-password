@@ -1,0 +1,6 @@
+@mixin font($family: $first-font, $size: $fs-md, $weight: $font-bold, $colour: $catalina-blue) {
+    font-family: $family;
+    font-size: $size;
+    font-weight: $weight;
+    color: $colour;
+}
