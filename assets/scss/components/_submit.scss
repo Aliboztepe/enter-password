@@ -3,13 +3,13 @@
     gap: 16px;
     width: 377px;
 
-    .item {
+    &-items {
         display: flex;
         align-items: center;
         gap: 8px;
         width: 100%;
 
-        &-desc {
+        .desc {
             @include font($first-font, $fs-md, $font-semibold, $catalina-blue);
         }
     }

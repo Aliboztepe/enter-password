@@ -3,7 +3,8 @@
     padding: 16px;
     border-radius: 8px;
     border: 2px solid $catalina-blue;
-
+    @include font($first-font, $fs-md, $font-semibold, $catalina-blue);
+    
     &.-password {
         padding-left: 40px;
     }

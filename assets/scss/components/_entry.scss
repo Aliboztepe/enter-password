@@ -18,5 +18,22 @@
             left: 8px;
             transform: translateY(-50%);
         }
+
+        .tooltip {
+            position: absolute;
+            @include font($first-font, $fs-xl, $font-bold, $catalina-blue);
+            width: 90%;
+            top: 50px;
+            left: 0;
+            border-radius: 20px;
+            padding: 5px;
+            font-size: 12px;
+            color: $catalina-blue;
+            display: none;
+        }
+
+        #toggle-icon {
+            cursor: pointer;
+        }
     }
 }

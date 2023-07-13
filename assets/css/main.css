@@ -136,6 +136,24 @@ Use any margin is below.
   left: 8px;
   transform: translateY(-50%);
 }
+.entry-area .tooltip {
+  position: absolute;
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #132B50;
+  width: 90%;
+  top: 50px;
+  left: 0;
+  border-radius: 20px;
+  padding: 5px;
+  font-size: 12px;
+  color: #132B50;
+  display: none;
+}
+.entry-area #toggle-icon {
+  cursor: pointer;
+}
 
 .btn {
   padding: 16px;
@@ -152,12 +170,20 @@ Use any margin is below.
 .btn:hover {
   transform: scale(1.1);
 }
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
 
 .input {
   width: 100%;
   padding: 16px;
   border-radius: 8px;
   border: 2px solid #132B50;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #132B50;
 }
 .input.-password {
   padding-left: 40px;
@@ -181,9 +207,10 @@ Use any margin is below.
 }
 .switch-input:checked + .switch-slider {
   border: 2px solid #132B50;
-  background-color: #FFFFFF;
+  background-color: #132B50;
 }
 .switch-input:checked + .switch-slider::before {
+  background-color: #FFFFFF;
   transform: translateX(23px);
 }
 .switch-slider {
@@ -219,13 +246,13 @@ Use any margin is below.
   gap: 16px;
   width: 377px;
 }
-.submit .item {
+.submit-items {
   display: flex;
   align-items: center;
   gap: 8px;
   width: 100%;
 }
-.submit .item-desc {
+.submit-items .desc {
   font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 600;

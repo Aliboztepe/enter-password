@@ -11,9 +11,10 @@
 
         &:checked + .switch-slider {
             border: 2px solid $catalina-blue;
-            background-color: $white;
+            background-color: $catalina-blue;
 
             &::before {
+                background-color: $white;
                 -webkit-transform: translateX(23px);
                 -ms-transform: translateX(23px);
                 transform: translateX(23px);

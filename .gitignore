@@ -1,0 +1,23 @@
+# Genel
+node_modules/
+
+# Derleme çıktıları
+dist/
+
+# Babel yapılandırma dosyası
+.babelrc
+
+# Webpack yapılandırma dosyası
+webpack.config.js
+
+# Geliştirme sunucusu yapılandırma dosyası
+server-config.json
+
+# IDE ve metin düzenleyici özel dosyaları
+.idea/
+.vscode/
+
+# Yerel bağımlılıklar için kaydedilen paketler
+npm-debug.log
+yarn-debug.log
+yarn-error.log
