@@ -1,6 +1,6 @@
 .btn {
-    padding: 16px;
-    border-radius: 8px;
+    padding: $sp-md;
+    border-radius: $r-sm;
     background-color: $catalina-blue;
     @include font($first-font, $fs-md, $font-semibold, $white);
     border: none;

@@ -1,12 +1,12 @@
 .submit {
     display: flex;
-    gap: 16px;
+    gap: $sp-md;
     width: 377px;
 
     &-items {
         display: flex;
         align-items: center;
-        gap: 8px;
+        gap: $sp-sm;
         width: 100%;
 
         .desc {

@@ -1,12 +1,12 @@
 .input {
     width: 100%;
-    padding: 16px;
-    border-radius: 8px;
+    padding: $sp-md;
+    border-radius: $r-sm;
     border: 2px solid $catalina-blue;
     @include font($first-font, $fs-md, $font-semibold, $catalina-blue);
     
     &.-password {
-        padding-left: 40px;
+        padding-left: $sp-xl;
     }
 
     &:focus {

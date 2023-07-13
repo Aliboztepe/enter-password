@@ -3,20 +3,20 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    gap: 16px;
+    gap: $sp-md;
 
     &-list {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        gap: 4px;
+        gap: $sp-xxs;
     }
 
     &-item {
         @include font($first-font, $fs-sm, $font-medium, $catalina-blue);
 
         &.-name {
-            font-size: 18px;
+            font-size: $fs-lg;
             font-weight: $font-bold;
         }
     }
